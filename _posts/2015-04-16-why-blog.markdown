@@ -1,0 +1,45 @@
+---
+layout: post
+title:  "Why Blog?"
+date:   2015-04-16 11:13:45
+categories: meta
+---
+
+#Hello.
+
+##Why start a blog, you ask?
+
+Well, I recently came to the conclusion that I had become lazy with respect to my career development and growth.
+
+I have a degree and the necessary ability to learn almost any new technology out there, yet I had grown comfortable in my own space and
+had stopped challenging myself.
+
+Thereafter I immediately realized that I had been wasting the last year and a half since I'd been out of school. I could have learned so much..
+
+No more.
+
+I realize that I know almost nothing, but for the last few months I've been learning any new concept, tool, or framework I can get my hands on.
+
+Some of more prominent ones the following:
+- Unit Testing [The Art Of Unit Testing](http://www.manning.com/osherove/)
+	- Junit, Mockito: [Practical Unit Testing](http://www.amazon.com/Practical-Unit-Testing-JUnit-Mockito/dp/8393489393)
+	- QUnit (eventually)
+- Web-based Integration Testing
+	- Selenium; this IS an integration testing suite, is it not?)
+- Spring: [Spring In Action](http://www.manning.com/walls4/), a [simple project using Spring Boot](https://github.com/dsab123/PlayHymn3)
+
+###This blog will help me to track my progress in my growth and understanding of these things, as well as any others I may pick up along the way.
+
+###The other main reason for this blog is for me to practice my writing. 
+
+I've noticed that if I can't communicate something effectively, whether in speaking or writing, then I really don't understand it that well.
+
+In short, I'll be blogging my progress and growth as a software developer.
+
+This blog will be hosted on a Digital Ocean Droplet. Digital Ocean is pretty cool.
+
+##So this blog is mainly for me.
+
+###Not you.
+Go away and spend your time reading something worthwhile. :)
+
