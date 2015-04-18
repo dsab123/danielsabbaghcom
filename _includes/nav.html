@@ -1,19 +1,23 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <div class="footer-col-wrapper">
-
-      <div class="footer-col  footer-col-1">
-        <img src="{{ site.headshot }}" height="150" width="160"></img>
-      </div>
-
-      <div class="footer-col  footer-col-2">
-      </div>
+<footer class="sidebar">
+    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
 
-      <div class="footer-col  footer-col-3">
+        <img src="{{ site.headshot }}" height="200" width="200"></img>
+
+		<br></br>
+
         <p class="text">{{ site.description }}</p>
+
+		Currently Reading:
+		<ul>
+		{% for book in site.data.reading_list %}
+		<li>
+		<a href="{{ book.url }}">{{ book.name }}</a>
+		</li>
+		
+		{% endfor %}
+		</ul>
+
 
         <ul class="contact-list">
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
@@ -34,11 +38,6 @@
 
           <li><a href="{{ site.resume }}">resume</a></li>      
         </ul>
-      </div>
-    </div>
 
-
-
-  </div>
 
 </footer>

@@ -1,14 +1,15 @@
 # Site settings
-title: danielsabbagh.com
+title: Daniel Sabbagh
 email: dsabbagh@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   This website is my effort at tracking my professional growth as a 
-  software developer. I'm interested in the software testing, web side
-  of things.
+  software developer. I'm interested web testing.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "danielSabbagh.com" # the base hostname & protocol for your site
 github_username:  dsab123
 resume:           "/assets/Daniel_Sabbagh_Resume_2015.pdf"
+headshot:         "/assets/headshot.jpg"
+permalink:        "/blog/:year/:title/"
 
 # Build settings
 markdown: kramdown

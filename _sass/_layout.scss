@@ -88,6 +88,26 @@
 
 
 
+.sidebar {
+    float: left;
+    line-height: 25px;
+	margin-left: 3.5cm;
+	font-size: 13px;
+	
+    
+    width: -webkit-calc(15% - (#{$spacing-unit} / 2));
+    width:         calc(15% - (#{$spacing-unit} / 2));
+    
+    ul {
+        list-style-position: none;
+    	list-style-type: none;
+    	padding-left:0;
+    }
+
+}
+
+
+
 /**
  * Site footer
  */
