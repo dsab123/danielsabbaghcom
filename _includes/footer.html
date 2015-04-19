@@ -5,15 +5,11 @@
     <div class="footer-col-wrapper">
 
       <div class="footer-col  footer-col-1">
-        <img src="{{ site.headshot }}" height="150" width="160"></img>
+        <img src="{{ site.headshot }}" height="200" width="200"></img>
       </div>
 
       <div class="footer-col  footer-col-2">
-      </div>
-
-
-      <div class="footer-col  footer-col-3">
-        <p class="text">{{ site.description }}</p>
+             <p class="text">{{ site.description }}</p>
 
         <ul class="contact-list">
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
@@ -34,6 +30,22 @@
 
           <li><a href="{{ site.resume }}">resume</a></li>      
         </ul>
+
+      </div>
+
+
+      <div class="footer-col  footer-col-3">
+	Currently Reading:
+		<ul>
+		{% for book in site.data.reading_list %}
+		<li>
+		<a href="{{ book.url }}">{{ book.name }}</a>
+		</li>
+		
+		{% endfor %}
+		</ul>
+
+
       </div>
     </div>
 
