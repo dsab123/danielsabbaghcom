@@ -196,9 +196,8 @@ public class Hymn {
 
 And by adding a Spring Controller to the mix, you can generate queries to your table on the fly. Mind=blown.
 
-```
 HymnRepository.java
-
+```
 public interface HymnRepository extends Repository<Hymn, Integer> {
 
 	Page<Hymn> findAll(Pageable pageable);
@@ -208,10 +207,8 @@ public interface HymnRepository extends Repository<Hymn, Integer> {
 ```
 
 
-```
 HymnController.java
-
-
+```
 @RestController
 @Configuration
 @RequestMapping("/hymn")
