@@ -17,7 +17,7 @@ I'll discuss the need from which the desire for this project came forth, a detai
 
 ##Need
 
-I attend [Trinity Reformed Church of Gaithersburg](www.trcofg.org), an awesome new church plant in Maryland.
+I attend [Trinity Reformed Church of Gaithersburg](http://www.trcofg.org), an awesome new church plant in Maryland.
 
 Our church worships the Lord in song with traditional hymns, because of the [regulative principle](https://en.wikipedia.org/wiki/Regulative_principle_of_worship).
 
