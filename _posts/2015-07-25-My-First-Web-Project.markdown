@@ -128,8 +128,8 @@ This was also my first time working with the Java Persistence API (henceforth JP
 
 For reference, here are the snippets of the two tables used in PlayHymns:
 
-```
 Week table sample
+```
 +------------+-------+-------+-------+
 | Date       | hymn1 | hymn2 | hymn3 |
 +------------+-------+-------+-------+
@@ -139,16 +139,15 @@ Week table sample
 +------------+-------+-------+-------+
 ```
 
-```
 Hymn table sample
+```
 +--------+----------------------+------------------------------+------------------------------+------------------------------+
-| Number | Name                 | Lyrics                       |  mp3Uri                      | oggUri                       |                                                                                
+| Number | Name                 | Lyrics                       |  mp3Uri                      | oggUri                       |
 +--------+----------------------+------------------------------+------------------------------+------------------------------+
 |     53 | Praise To The Lord   | https://s3.amazonaws.com/... | https://s3.amazonaws.com/... | https://s3.amazonaws.com/... |
 ..............................................................................................................................
 |    634 | Sweet Hour of Prayer | https://s3.amazonaws.com/... | https://s3.amazonaws.com/... | https://s3.amazonaws.com/... |
 +--------+----------------------+------------------------------+------------------------------+------------------------------+
-
 ```
 
 The `Week` table holds the date of each service along with the three hymns that were sung. Because Old-Style Presbyterians only sing 3 hymns per service (NOTE: this does not include the doxology). 
@@ -235,7 +234,9 @@ The `returnHymn` method maps the `/<hymn number>` endpoint on the app to a call 
 
 A similar scheme was used for querying the `Week` table.
 
-Unfortunately, I'm out of time. Also, that snippet of the hymn table probably doesn't look all that pretty.
+Unfortunately, I'm out of time. 
+
+Also, that snippet of the tables probably doesn't look all that pretty. I'll need to get better at markdown to figure out how to wrap the lines better.
 
 I'll discuss the database structure in more detail in the next post, as well as the rest of the discussion forecasted at the beginning of this post.
 
