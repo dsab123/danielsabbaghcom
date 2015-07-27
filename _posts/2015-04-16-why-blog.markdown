@@ -21,12 +21,12 @@ No more.
 I realize that I know almost nothing, but for the last few months I've been learning any new concept, tool, or framework I can get my hands on.
 
 Some of more prominent ones the following:
-- Unit Testing [The Art Of Unit Testing](http://www.manning.com/osherove/)
-	- Junit, Mockito: [Practical Unit Testing](http://www.amazon.com/Practical-Unit-Testing-JUnit-Mockito/dp/8393489393)
-	- QUnit (eventually)
-- Web-based Integration Testing
-	- Selenium; this IS an integration testing suite, is it not?)
-- Spring: [Spring In Action](http://www.manning.com/walls4/), a [simple project using Spring Boot](https://github.com/dsab123/PlayHymn3)
+* Unit Testing [The Art Of Unit Testing](http://www.manning.com/osherove/)
+	* Junit, Mockito: [Practical Unit Testing](http://www.amazon.com/Practical-Unit-Testing-JUnit-Mockito/dp/8393489393)
+	* QUnit (eventually)
+* Web-based Integration Testing
+	* Selenium; this IS an integration testing suite, is it not?)
+* Spring: [Spring In Action](http://www.manning.com/walls4/), a [simple project using Spring Boot](https://github.com/dsab123/PlayHymn3)
 
 ###This blog will help me to track my progress in my growth and understanding of these things, as well as any others I may pick up along the way.
 
