@@ -75,7 +75,6 @@ Some relevant sections of the POM:
 
 Including the starter parent POM was the easiest configuration option.
 
-
 ```
 
 	<dependencies>
@@ -132,7 +131,6 @@ This was also my first time working with the Java Persistence API (henceforth JP
 For reference, here are the snippets of the two tables used in PlayHymns:
 
 Week table sample
-```
 
 +------------+-------+-------+-------+
 | Date       | hymn1 | hymn2 | hymn3 |
@@ -141,11 +139,8 @@ Week table sample
 ......................................
 | 07-26-2015 |   309 |   646 |   369 |
 +------------+-------+-------+-------+
-```
 
 Hymn table sample
-```
-
 +--------+----------------------+------------------------------+------------------------------+------------------------------+
 | Number | Name                 | Lyrics                       |  mp3Uri                      | oggUri                       |
 +--------+----------------------+------------------------------+------------------------------+------------------------------+
@@ -153,7 +148,7 @@ Hymn table sample
 ..............................................................................................................................
 |    634 | Sweet Hour of Prayer | https://s3.amazonaws.com/... | https://s3.amazonaws.com/... | https://s3.amazonaws.com/... |
 +--------+----------------------+------------------------------+------------------------------+------------------------------+
-```
+
 
 The `Week` table holds the date of each service along with the three hymns that were sung. Because Old-Style Presbyterians only sing 3 hymns per service (NOTE: this does not include the doxology). 
  
@@ -168,68 +163,68 @@ Here are the java classes that interfaced with the `Hymn` table:
 Hymn.java 
 ```
 
-@Entity
-@Table(name="hymn")
-public class Hymn {
+	@Entity
+	@Table(name="hymn")
+	public class Hymn {
 
-
-	@Id
-	private int number;
+		@Id
+		private int number;
 	
-	@Column(nullable = false)
-	private String name;
+		@Column(nullable = false)
+		private String name;
 	
-	@Column(nullable = false)
-	private String lyrics;
+		@Column(nullable = false)
+		private String lyrics;
 	
-	@Column(nullable = false)
-	private String mp3Uri;
+		@Column(nullable = false)
+		private String mp3Uri;
 	
-	@Column(nullable = false)
-	private String oggUri;
+		@Column(nullable = false)
+		private String oggUri;
 	
-	public Hymn(String nameIn, String lyricsIn, int numberIn, String mp3UriIn, String oggUriIn) {
-		name = nameIn;
-		lyrics = lyricsIn;
-		number = numberIn;
-		mp3Uri = mp3UriIn;
-		oggUri = oggUriIn;
-	}
+		public Hymn(String nameIn, String lyricsIn, int numberIn, String mp3UriIn, String oggUriIn) {
+			name = nameIn;
+			lyrics = lyricsIn;
+			number = numberIn;
+			mp3Uri = mp3UriIn;
+			oggUri = oggUriIn;
+		}
 ```
 
 And by adding a Spring Controller to the mix, you can generate queries to your table on the fly. Mind=blown.
 
 HymnRepository.java
+
 ```
-
-public interface HymnRepository extends Repository<Hymn, Integer> {
-
-	Page<Hymn> findAll(Pageable pageable);
 	
-	Hymn findHymnByNumber(Integer number);
-}
+	public interface HymnRepository extends Repository<Hymn, Integer> {
+
+		Page<Hymn> findAll(Pageable pageable);
+	
+		Hymn findHymnByNumber(Integer number);
+	}
 
 ```
 
 HymnController.java
 ```
 
-@RestController
-@Configuration
-@RequestMapping("/hymn")
-public class HymnController {
-	HymnRepository repo;
+	@RestController
+	@Configuration
+	@RequestMapping("/hymn")
+	public class HymnController {
+		HymnRepository repo;
 	
-	@RequestMapping(value="/{idNum}", method=RequestMethod.GET)
-	public @ResponseBody Hymn returnHymn(@PathVariable int idNum) {
-		return repo.findHymnByNumber(idNum);
-	}
+		@RequestMapping(value="/{idNum}", method=RequestMethod.GET)
+		public @ResponseBody Hymn returnHymn(@PathVariable int idNum) {
+			return repo.findHymnByNumber(idNum);
+		}
 	
-	@Autowired
-	public void setHymnRepository(HymnRepository repoIn) {
-		repo = repoIn;
+		@Autowired
+		public void setHymnRepository(HymnRepository repoIn) {
+			repo = repoIn;
+		}
 	}
-}
 ```
 
 The `returnHymn` method maps the `/<hymn number>` endpoint on the app to a call to the `Hymn` repository, which queries the `Hymn` table for the given hymn.
