@@ -64,17 +64,20 @@ The last chapter of *Spring In Action* mentioned the [Spring Boot Project](http:
 Some relevant sections of the POM:
 
 ```
+
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>1.2.2.RELEASE</version>
 	</parent>
+	
 ```
 
 Including the starter parent POM was the easiest configuration option.
 
 
 ```
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -130,6 +133,7 @@ For reference, here are the snippets of the two tables used in PlayHymns:
 
 Week table sample
 ```
+
 +------------+-------+-------+-------+
 | Date       | hymn1 | hymn2 | hymn3 |
 +------------+-------+-------+-------+
@@ -141,6 +145,7 @@ Week table sample
 
 Hymn table sample
 ```
+
 +--------+----------------------+------------------------------+------------------------------+------------------------------+
 | Number | Name                 | Lyrics                       |  mp3Uri                      | oggUri                       |
 +--------+----------------------+------------------------------+------------------------------+------------------------------+
@@ -160,13 +165,13 @@ With Spring and the JPA, you can create a simple Java Bean class with instance v
 
 Here are the java classes that interfaced with the `Hymn` table:
 
-
-```
 Hymn.java 
+```
 
 @Entity
 @Table(name="hymn")
 public class Hymn {
+
 
 	@Id
 	private int number;
@@ -190,25 +195,25 @@ public class Hymn {
 		mp3Uri = mp3UriIn;
 		oggUri = oggUriIn;
 	}
-
-...
 ```
 
 And by adding a Spring Controller to the mix, you can generate queries to your table on the fly. Mind=blown.
 
 HymnRepository.java
 ```
+
 public interface HymnRepository extends Repository<Hymn, Integer> {
 
 	Page<Hymn> findAll(Pageable pageable);
 	
 	Hymn findHymnByNumber(Integer number);
 }
-```
 
+```
 
 HymnController.java
 ```
+
 @RestController
 @Configuration
 @RequestMapping("/hymn")
