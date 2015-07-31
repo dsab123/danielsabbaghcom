@@ -1,24 +1,23 @@
 <footer class="sidebar">
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+       <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
 
-        <img src="{{ site.headshot }}" height="200" width="200"></img>
+        <img src="{{ site.headshot }}" height="200" width="210"></img>
 
 		<br></br>
 
         <p class="text">{{ site.description }}</p>
 
 		Currently Reading:
-		<ul>
-		{% for book in site.data.reading_list %}
+		<ul class="noindent">
+		{% for book in site.data.currently_reading %}
 		<li>
 		<a href="{{ book.url }}">{{ book.name }}</a>
 		</li>
 		
 		{% endfor %}
 		</ul>
-
-
+		
         <ul class="contact-list">
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
 

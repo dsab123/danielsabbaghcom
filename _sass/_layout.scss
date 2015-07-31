@@ -91,21 +91,26 @@
 .sidebar {
     float: left;
     line-height: 25px;
-	margin-left: 3.5cm;
-	font-size: 13px;
+	margin-left: 3cm;
+	margin-right: 1cm;
+	font-size: 12px;
 	
     
-    width: -webkit-calc(15% - (#{$spacing-unit} / 2));
-    width:         calc(15% - (#{$spacing-unit} / 2));
-    
-    ul {
-        list-style-position: none;
-    	list-style-type: none;
-    	padding-left:0;
-    }
+    width: -webkit-calc(18% - (#{$spacing-unit} / 2));
+    width:         calc(18% - (#{$spacing-unit} / 2));
 
 }
 
+ul.noindent {
+    list-style-position: none;
+	list-style-type: none;
+	padding-left:0;
+   	margin-left: 5px;
+	margin-right: 0px;
+	padding-left: 10px;
+	padding-right: 0px;
+	font-size: 13px;
+}
 
 
 /**
@@ -183,6 +188,7 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    margin-left: $spacing-unit * 2;
 }
 
 .page-heading {
