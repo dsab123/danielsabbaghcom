@@ -15,43 +15,43 @@ I am particularly fond of those hymns of his that follow a narrative pattern. He
 
 Here are the lyrics to the hymn, arranged by [Indelible Grace](http://hymnbook.igracemusic.com/hymns/great-god-from-thee).
 
->Great God from Thee there's nought concealed, 
-Thou seest my inward frame;
-To Thee I always stand revealed, 
-Exactly as I am.
+>Great God from Thee there's nought concealed,  
+Thou seest my inward frame;  
+To Thee I always stand revealed,   
+Exactly as I am.  
 
->Since I can hardly therefore bear, 
-What in myself I see
-How vile and dark must I appear 
-Most holy God to Thee?
+>Since I can hardly therefore bear,   
+What in myself I see  
+How vile and dark must I appear   
+Most holy God to Thee?  
 
->But since my Savior stands between, 
-In garments dyed in blood,
-Tis He instead of me is seen
-When I approach to God.
+>But since my Savior stands between,   
+In garments dyed in blood,  
+Tis He instead of me is seen  
+When I approach to God.  
 
->Thus though a sinner, I am safe, 
-He pleads before the throne
-His life and death in my behalf, 
-And calls my sins His own.
+>Thus though a sinner, I am safe,   
+He pleads before the throne  
+His life and death in my behalf,   
+And calls my sins His own.  
 
->What wondrous love, what mysteries, 
-In this appointed shine!
-My breaches of the law are His, 
-And His obedience mine.
+>What wondrous love, what mysteries,   
+In this appointed shine!  
+My breaches of the law are His,  
+And His obedience mine.  
 
 
 A few observations:
 
 The first verse reminds me of Psalm 139, in which King David marvels in God's complete knowledge of him. The first four verses elaborate on this concept:
 
->O Lord, You have searched me and known me.
-You know my sitting down and my rising up;
-You understand my thought afar off.
-You comprehend my path and my lying down,
-And are acquainted with all my ways.
-For there is not a word on my tongue,
-But behold, O Lord, You know it altogether.
+>O Lord, You have searched me and known me.  
+You know my sitting down and my rising up;  
+You understand my thought afar off.  
+You comprehend my path and my lying down,  
+And are acquainted with all my ways.  
+For there is not a word on my tongue,  
+But behold, O Lord, You know it altogether.  
 
 Another verse that comes to mind is Hebrews 4:13:
 
