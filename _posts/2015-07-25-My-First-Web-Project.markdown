@@ -132,6 +132,8 @@ For reference, here are the snippets of the two tables used in PlayHymns:
 
 Week table sample
 
+```
+
 +------------+-------+-------+-------+
 | Date       | hymn1 | hymn2 | hymn3 |
 +------------+-------+-------+-------+
@@ -139,8 +141,12 @@ Week table sample
 ......................................
 | 07-26-2015 |   309 |   646 |   369 |
 +------------+-------+-------+-------+
+```
 
 Hymn table sample
+
+```
+
 +--------+----------------------+------------------------------+------------------------------+------------------------------+
 | Number | Name                 | Lyrics                       |  mp3Uri                      | oggUri                       |
 +--------+----------------------+------------------------------+------------------------------+------------------------------+
@@ -148,7 +154,7 @@ Hymn table sample
 ..............................................................................................................................
 |    634 | Sweet Hour of Prayer | https://s3.amazonaws.com/... | https://s3.amazonaws.com/... | https://s3.amazonaws.com/... |
 +--------+----------------------+------------------------------+------------------------------+------------------------------+
-
+```
 
 The `Week` table holds the date of each service along with the three hymns that were sung. Because Old-Style Presbyterians only sing 3 hymns per service (NOTE: this does not include the doxology). 
  
@@ -160,7 +166,8 @@ With Spring and the JPA, you can create a simple Java Bean class with instance v
 
 Here are the java classes that interfaced with the `Hymn` table:
 
-Hymn.java 
+Hymn.java
+
 ```
 
 	@Entity
@@ -203,10 +210,10 @@ HymnRepository.java
 	
 		Hymn findHymnByNumber(Integer number);
 	}
-
 ```
 
 HymnController.java
+
 ```
 
 	@RestController
