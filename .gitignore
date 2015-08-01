@@ -2,3 +2,4 @@ _site
 .sass-cache
 Capfile
 config/
+css/bootstrap.css
