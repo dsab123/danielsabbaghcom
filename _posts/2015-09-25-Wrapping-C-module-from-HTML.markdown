@@ -5,7 +5,7 @@ date:   2015-09-25 23:03:06
 categories: software, web, C
 ---
 
-Looks like I've been away for a while. I have now discovered that it really _is_ hard to maintain a blog. Gone are the days when I make fun of other bloggers who aren't consistent in their bloggage.
+Looks like I've been away for a while. I have now discovered that it really _is_ hard to maintain a blog. Gone are the days when I make fun of other bloggers who aren't consistent in their bloggage. I need to be persistent. [Thanks, Jeff Atwood](http://blog.codinghorror.com/how-to-achieve-ultimate-blog-success-in-one-easy-step/).
 
 I have a long list of post ideas I'd like to write about, but this is the one I've been working towards as of late.
 
@@ -25,14 +25,15 @@ As it stands right now, I’ll probably use CGI to call the script from a HTML f
 
 A pretty graph to illustrate:
 
-[Because flowcharts are baus]({{ site.url }}/assets/wrapper-first.jpg)
+![Because flowcharts are baus](/assets/wrapper-first.png)
 
 
 I was considering throwing out the bash scripting in between the form and the executable, but I’d like to be able to save the config file for future use, so it’ll stay.
 
 Another entry point for importing a stored config file would make the overall flow look like:
 
-[Because more complicated flowcharts are even bausier]({{ site.url }}/assets/wrapper-second.jpg)
+![Because more complicated flowcharts are even bausier](/assets/wrapper-second.png)
+
 
 Flowcharts always make everything more exciting!
 
