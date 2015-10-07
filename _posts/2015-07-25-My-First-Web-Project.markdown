@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "My First Web Project"
+title:  "My First Web Project | Part 1"
 date:   2015-07-25 23:03:06
 categories: playhymns, software, web
 ---
