@@ -1,7 +1,7 @@
 ---
 layout: reading_list
 title:  "What am I currently reading?"
-date:   2015-10-09 23:03:06
+date:   2015-10-09 23:01:06
 categories: software, theology, reading
 ---
 
