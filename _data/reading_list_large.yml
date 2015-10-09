@@ -1,0 +1,54 @@
+- name: jQuery in Action, Third Edition
+  category: technical 
+  author: Bear Bibault, Yehuda Katz, Aurelio De Rosa
+  image: assets/jquery-in-action.jpg
+  status: currently reading
+  info: > # comment 
+    This joint is really awesome, yo! This joint is really awesome, yo! This 
+    joint is really awesome, yo! This joint is really awesome, yo! This joint 
+    is really awesome, yo! This joint is really awesome, yo! This joint is 
+    really awesome, yo! This joint is really awesome, yo! This joint is really 
+    awesome, yo! This joint is really awesome, yo! This joint is really awesome, 
+    yo!
+
+- name: Effective Java, Second Edition
+  category: technical
+  author: Joshua Bloch
+  image: assets/effective-java.jpg
+  status: currently reading
+  
+- name: The Pragmatic Programmer
+  category: technical
+  author: Andrew Hunt, David Thomas
+  image: assets/the-pragmatic-programmer.jpg
+  status: currently reading
+
+- name: The Mythical Man-Month
+  category: technical
+  author: Fred Brooks
+  image: assets/the-mythical-man-month.jpg
+  status: currently reading
+
+- name: Teach Yourself SQL in 10 Minutes
+  category: technical
+  author: Ben Forta
+  image: assets/teach-yourself-sql.jpg
+  status: finished mid 2015
+
+- name: Practical Unit Testing with JUnit and Mockito
+  category: technical
+  author: Tomek Kaczanowski
+  image: assets/practical-unit-testing.jpg
+  status: finished mid 2015
+
+- name: Spring in Action, Fourth Edition
+  category: technical
+  author: Craig Walls
+  image: assets/spring-in-action.jpg
+  status: finished early 2015
+
+- name: The Art Of Unit Testing
+  category: technical  
+  author: Roy Osherove
+  image: assets/the-art-of-unit-testing.jpg
+  status: finished late 2014

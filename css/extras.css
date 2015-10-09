@@ -1,0 +1,16 @@
+span.reading-info {
+    margin-left: 120px;
+    display: block;    
+}
+
+div.reading-info {
+    background: #bbb;
+    width: 350px;
+    padding: 5px;
+    position: relative;
+}
+img.reading-info {
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;  /* = image height div 2 */
+}
