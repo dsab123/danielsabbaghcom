@@ -11,4 +11,4 @@ Augustine famously said, "I count myself one of the number of those who write as
 
 I'll eventually list all the books I've read in the last few years, with a few thoughts on each. I'll add more books I've read to this list as I find the time.
 
-Unfortunately, I'm not great at CSS and HTML layouts, and so I'll leave off my thoughts for now.
+In the near future I'll add some brief thoughts on each book.
