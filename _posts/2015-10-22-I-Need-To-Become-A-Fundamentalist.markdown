@@ -2,7 +2,7 @@
 layout: post
 title:  "I Need To Become A Fundamentalist"
 date:   2015-10-22 11:13:45
-categories: meta, software
+tags: meta software
 ---
 
 I’ve been using all my spare time to work on as many projects as I can, which has been exhilarating to say the least; there’s so much out there in the web development world!

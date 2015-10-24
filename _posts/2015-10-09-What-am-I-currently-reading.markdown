@@ -2,7 +2,7 @@
 layout: reading_list
 title:  "What am I currently reading?"
 date:   2015-10-09 23:01:06
-categories: software, theology, reading
+tags: software theology reading
 ---
 
 In the last few years I've tried to diversify my reading, as [Albert Mohler has advised](http://www.albertmohler.com/2007/09/12/some-thoughts-on-the-reading-of-books/). He splits his reading into six categories: Theology, Biblical Studies, Church Life, History, Cultural Studies, and Literature. I've slightly modified his categories to fit my own preferences and interests: Theology, Technical, Everything else. I subdivide Theologicial works into the following: Theology, Church Stuff, Biography, and History.

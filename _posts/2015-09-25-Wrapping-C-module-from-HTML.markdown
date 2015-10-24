@@ -2,7 +2,7 @@
 layout: post
 title:  "Calling C module with HTML form | Part 1"
 date:   2015-09-25 23:03:06
-categories: software, web, C
+tags: software web C
 ---
 
 Looks like I've been away for a while. I have now discovered that it really _is_ hard to maintain a blog. Gone are the days when I make fun of other bloggers who aren't consistent in their bloggage. I need to be persistent. [Thanks, Jeff Atwood](http://blog.codinghorror.com/how-to-achieve-ultimate-blog-success-in-one-easy-step/).

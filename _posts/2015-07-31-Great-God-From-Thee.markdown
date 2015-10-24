@@ -2,7 +2,7 @@
 layout: post
 title:  "Great God, From Thee"
 date:   2015-07-31 11:14:33
-categories: hymns, theology, John Newton
+tags: hymns theology John Newton
 ---
 
 So if you're an avid reader of my blog you'll know that [I really like hymns]({% post_url 2015-07-25-My-First-Web-Project %}).

@@ -2,7 +2,7 @@
 layout: post
 title:  "My First Web Project | Part 1"
 date:   2015-07-25 23:03:06
-categories: playhymns, software, web
+tags: playhymns software web
 ---
 
 I suppose it's fitting that my first post with any real substance should bear a title with as trite a composition such as "My First *".

@@ -2,7 +2,7 @@
 layout: post
 title:  "My First Web Project | Part 2"
 date:   2015-10-07 23:03:06
-categories: playhymns, software, web
+tags: playhymns software web
 ---
 
 My apologies for waiting more than three months to continue this series! I'm glad to see that I haven't lost any member in my exhorbitantly large fanbase because of my slackage. 

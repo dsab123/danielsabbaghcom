@@ -2,7 +2,7 @@
 layout: post
 title:  "O consider His loveliness and beauty..."
 date:   2015-10-09 23:03:06
-categories: theology, puritan, rutherford
+tags: theology puritan rutherford
 ---
 
 This is an excerpt from a letter from Samuel Rutherford, a Scottish Presbyterian, to an unknown Madame.

@@ -2,7 +2,7 @@
 layout: post
 title:  "Why Blog?"
 date:   2015-04-16 11:13:45
-categories: meta
+tags: meta
 ---
 
 #Hello.
