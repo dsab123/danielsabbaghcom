@@ -1,5 +1,5 @@
 <footer class="sidebar">
-       <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+<!--       <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
 
         <img src="{{ site.headshot }}" height="200" width="210"></img>
@@ -37,6 +37,17 @@
 
           <li><a href="{{ site.resume }}">resume</a></li>      
         </ul>
+-->
 
+<p class="text">Posts tagged:</p>
+<ul class="nav nav-pills">
+    {% if site.posts %}
+    	{% for s in site.posts %} 
+    		{% for t in s.tags %} 
+	    		<li><a href="/tag/{{ t }}">{{ t }}</a></li> 
+		 	{% endfor %}
+		 {% endfor %} 
+    {% endif %} 
+</ul>
 
 </footer>
