@@ -3,3 +3,4 @@ _site
 Capfile
 config/
 css/bootstrap.css
+_gist_cache/
