@@ -11,11 +11,11 @@ Now that I think I have a basic grasp of what’s going on in web dev right now,
 
 ###Java/Spring
 - No getting around this one. I need to meet Java 8’s new awesome features and APIs as well as refamiliarize self with the Core Java API
-- I [did a project with Spring boot](http://playhymns.herokuapp.com) once, and it was too easy. Boot handled so much of the configuration that I’m ignorant as to how it works under the surface. Not good. I want to become a Spring Ninja, like the guy on the cover of [Spring In Action](amazon website)
-- I’ll need to reread portions of [Spring In Action](see my reading list)
+- I [did a project with Spring boot](http://playhymns.herokuapp.com) once, and it was too easy. Boot handled so much of the configuration that I’m ignorant as to how it works under the surface. Not good. I want to become a Spring Ninja, like the guy on the cover of [Spring In Action]({% post_url 2015-10-09-What-am-I-currently-reading %})
+- I’ll need to reread portions of [Spring In Action]({% post_url 2015-10-09-What-am-I-currently-reading %})
 
 ###JavaScript/jQuery/CSS/HTML5
-- I’m working through [jQuery in Action](see my reading list), and liking it. I’ll continue.
+- I’m working through [jQuery in Action]({% post_url 2015-10-09-What-am-I-currently-reading %}), and liking it. I’ll continue.
 - I didn’t spend enough time mastering the JavaScript basics; need to do that.
 - So, I still don’t know much about HTML5...
 - How do I optimize loading times and such for a SPA when making AJAX calls?
@@ -34,7 +34,7 @@ Now that I think I have a basic grasp of what’s going on in web dev right now,
 
 ###Testing
 
-- I’ll go over [The Art Of Unit Testing](reading list) and [Practical Unit Testing](reading list)
+- I’ll go over [The Art Of Unit Testing]({% post_url 2015-10-09-What-am-I-currently-reading %}) and [Practical Unit Testing]({% post_url 2015-10-09-What-am-I-currently-reading %})
 - I should learn how to unit test JavaScript; QUnit would be good for this, I suppose.
 - Need more experience with Chrome Developer Tools
 - Selenium? I completely forgot about Selenium!
