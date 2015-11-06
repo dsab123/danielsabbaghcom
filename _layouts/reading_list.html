@@ -1,56 +1,27 @@
----
-layout: default
----
+--- layout: default ---
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }} • {% if page.categories %} {% for c in page.categories %} {{ c | rstrip }} {% endfor %} {% endif %} {% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  <style>
-	 div.reading-info {
-	 	width: 600px;
-	 	overflow-y: wrap;
-	    white-space: nowrap;
-	}
+<div class="page-header">
+	<h1 class="post-title">{{ page.title }}</h1>
 
-	div.inside-reading-info {
-	    display: inline-block;
-	}
-	
-	span.reading-info {
-	    margin-left: 120px;
-	    display: block;
-	    overflow-y: wrap;    
-	}
-  </style>
-  </header>
-  
-<article class="post-content">
-	{{ content }}
-</article>
+	<h2>
+		<small> {{ page.date | date: "%b %-d, %Y" }} • {% if page.tags %} {% for t in page.tags %} <a href="/tag/{{ t }}">{{ t | rstrip }}</a> {% endfor %} {% endif %}
+		</small>
+	</h2>
+</div>
 
-<div class="container">
-	<div class="row">
-		<div class="col-xs-12">
-			{% for b in site.data.reading_list_large %}
-			<div>
-				<div>
-					<b>{{ b.name }}</b>, by {{ b.author }}
-					<br>
-					<b>{{ b.status }}</b>
-					<br>
-					<div class="inside-reading-info">
-						<img src="{{ localhost:4000 }}/{{  b.image }}" height="160" width="100"></img>
-					</div>
-				</div>
-				<div>
-		<!--		<div class="inside-reading-info">
-						<span class="reading-info">{{ b.info }}</span>
-					</div>
-		-->
-				</div>	
-			<br>
-			</div>
-			{% endfor %}
+<div class="well-sm">{{ content }}</div>
+
+
+{% for b in site.data.reading_list_large %}
+<div>
+	<div>
+		<b>{{ b.name }}</b>, by {{ b.author }} <br> <b>{{ b.status }}</b>
+		<br>
+		<div class="inside-reading-info">
+			<img src="{{ localhost:4000 }}/{{  b.image }}" height="160"
+				width="100"></img>
 		</div>
 	</div>
+	<br>
 </div>
+{% endfor %}
