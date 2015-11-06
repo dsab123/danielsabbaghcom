@@ -13,7 +13,7 @@ layout: default
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          <p class="post-meta"> {% if post.tags %} {% for t in post.tags %} {{ t | rstrip }} {% endfor %} {% endif %} </p>
+          <p class="post-meta"> {% if post.tags %} {% for t in post.tags %} <a href="/tag/{{ t }}">{{ t | rstrip }}</a> {% endfor %} {% endif %} </p>
         </h2>
       </li>
     {% endfor %}
