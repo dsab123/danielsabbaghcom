@@ -33,18 +33,24 @@
 		{% endif %}
 
 		<li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-
 	</ul>
 
+{% if site.posts %}
+	{% for s in site.posts %}
+		{% capture tags %}
+  		{% for tag in site.tags %}
+    		{{ tag[0] }}
+  		{% endfor %}
+		{% endcapture %}
+		{% assign sortedtags = tags | split:' ' | sort %}
+	{% endfor %} 
+{% endif %} 
+
 	Posts tagged:
-	<ul style="list-style-type: none;">
-		{% if site.posts %}
-		{% for s in site.posts %} 
-			{% for t in s.tags %} 
+	<ul style="list-style-type: none;"> 
+			{% for t in sortedtags %} 
 				<li><a href="/tag/{{ t }}">{{ t }}</a></li> 
 			{% endfor %}
-		{% endfor %} 
-		{% endif %} 
 	</ul>
 </div>
 
