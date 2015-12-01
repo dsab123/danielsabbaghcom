@@ -13,7 +13,7 @@ I've been working on a new layout for this site, which I finally pushed into pro
 
 What's good is that capistrano stores all released versions of this site, so if I start getting hate mail for how bad the site looks, I can always revert back to the primitive layout *I* hated so much.
 
-The new layout is [Bootstrap](getbootstrap.com)-based. I've used bootstrap on a few [projects](/tag/playhymns), and I absolutely love how easy it is to work with.
+The new layout is [Bootstrap](http://www.getbootstrap.com)-based. I've used bootstrap on a few [projects](/tag/playhymns), and I absolutely love how easy it is to work with.
 
 I may write more about the layout changes in the near future.
 
