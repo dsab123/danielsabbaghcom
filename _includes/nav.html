@@ -11,7 +11,7 @@
 </style>
 
 <div class="row">
-	<img src="{{ site.headshot }}" height="200" width="210"></img>
+	<img src="{{ site.headshot }}" height="230" width="240"></img>
 
 	<br></br>
 	<p class="text-muted">{{ site.description }}</p>
@@ -35,16 +35,16 @@
 		<li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
 	</ul>
 
-{% if site.posts %}
-	{% for s in site.posts %}
+
+<!-- how to get a count of each tag? Need to learn liquid -->
+	{% if site.tags %}
 		{% capture tags %}
   		{% for tag in site.tags %}
     		{{ tag[0] }}
   		{% endfor %}
 		{% endcapture %}
 		{% assign sortedtags = tags | split:' ' | sort %}
-	{% endfor %} 
-{% endif %} 
+	{% endif %} 
 
 	Posts tagged:
 	<ul style="list-style-type: none;"> 
