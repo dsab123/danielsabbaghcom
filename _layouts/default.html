@@ -15,24 +15,22 @@
 	
 	<nav class="navbar">
 		<div class="container-fluid">
-    	<div class="navbar-header title">
+    		<div class="navbar-header title">
 				<a class="navbar-brand" href="/"><h1>Daniel Sabbagh</h1></a>
-   		</div>
-    </div>
+   			</div>
+    	</div>
 	</nav>
 	
 	
 		<div class="container">
 			<div class="row">
-	
-				<div class="col-xs-3">
-					{% include nav.html %}
-				</div>
-			
-				<div class="col-xs-9">
+				<div class="col-md-9 col-md-push-3">
 					{{ content }}
 				</div>
-		
+	
+				<div class="col-md-3 col-md-pull-9">
+					{% include nav.html %}
+				</div>
 			</div>
 		</div>
 
