@@ -2,7 +2,7 @@
 layout: post
 title:  "A Year In Review (In Books)"
 date:   2015-12-31 15:20:45
-categories: reading, theology
+tags: reading theology
 ---
 
 This year, I read more books than I ever have. I can't take much of the credit for this, I'm afraid. Much thanks to Tim Challies and his [productivity system](http://www.challies.com/domorebetter), which I highly recommend.

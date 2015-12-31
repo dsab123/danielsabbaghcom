@@ -2,7 +2,7 @@
 layout: post
 title:  "When I love You, What do I love?"
 date:   2015-12-31 17:33:08
-categories: reading, theology, Augustine
+tags: reading theology Augustine
 ---
 
 I wrote [another post today]({% post_url 2015-12-31-A-Year-In-Review-In-Books %}) summarizing the books I read this year. After picking up and leafing through Augustine's *Confessions*, I couldn't help but post this longer quote.
